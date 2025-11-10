@@ -1,16 +1,6 @@
 {
   "java.project.referencedLibraries": [
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.fxml.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.graphics.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.swing.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.media.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\jfx.incubator.input.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\jfx.incubator.richtext.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.base.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.controls.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx-swt.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\javafx.web.jar",
-    "c:\\Users\\Natha\\OneDrive\\Documents\\AMS\\lib\\jdk.jsobject.jar"
+    "lib/**/*.jar"
   ],
   "java.project.sourcePaths": ["src"]
 }
