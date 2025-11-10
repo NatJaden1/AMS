@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox fx:controller="ams.controller.StudentController"
+      spacing="10" alignment="TOP_CENTER"
+      xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <TableView fx:id="table" prefHeight="300" prefWidth="600">
+        <columns>
+            <TableColumn fx:id="colId" text="ID" prefWidth="50"/>
+            <TableColumn fx:id="colName" text="Name" prefWidth="150"/>
+            <TableColumn fx:id="colEmail" text="Email" prefWidth="200"/>
+            <TableColumn fx:id="colCourse" text="Course" prefWidth="200"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Name:"/>
+        <TextField fx:id="nameField" prefWidth="150"/>
+        <Label text="Email:"/>
+        <TextField fx:id="emailField" prefWidth="150"/>
+        <Label text="Course:"/>
+        <TextField fx:id="courseField" prefWidth="100"/>
+    </HBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Add" fx:id="addBtn" onAction="#addStudent"/>
+        <Button text="Update" fx:id="updateBtn" onAction="#updateStudent"/>
+        <Button text="Delete" fx:id="deleteBtn" onAction="#deleteStudent"/>
+    </HBox>
+</VBox>
